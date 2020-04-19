@@ -5,6 +5,8 @@ Rails.application.routes.draw do
   namespace :api, defaults: { format: :json } do
     namespace :v1 do
       resources :dashboard, only: :index
+      resources :search, only: :index
+      resources :categories, only: :index
     end
   end
 
