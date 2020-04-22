@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import PropTypes from 'prop-types'
-
-document.addEventListener('DOMContentLoaded', () => {
+import App from '../app';
+ 
+document.addEventListener('turbolinks:load', function() {
   ReactDOM.render(
-    <div>Hello</div>,
+    <App/>,
     document.getElementById('root'),
   )
 })
