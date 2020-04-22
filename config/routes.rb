@@ -25,4 +25,7 @@ Rails.application.routes.draw do
   end
 
   root to: 'home#index'
+
+  # Setar todas as rotas pro app do React
+  get "*path", to: "home#index", :constraints => lambda{|req| req.path !~ /\.(png|jpg|js|css|json)$/ }
 end
