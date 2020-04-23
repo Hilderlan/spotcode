@@ -14,7 +14,6 @@ const Discovery = () => {
 
   async function fetchAlbums() {
     const response = await AlbumsService.index();
-    console.log(response.data['recommended_albums']);
     
     setRecentAlbums(response.data['recent_albums'])
     setRecommendedAlbums(response.data['recommended_albums'])
