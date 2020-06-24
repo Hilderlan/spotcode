@@ -3,10 +3,10 @@
 </h1> 
 
 <p align="center">
-🎧 Uma clone do Spotify feito a partir de um minicurso do OneBitCode para aprimorar os conhecimentos em Rails e ReactJS. 🎼
+🎧 A Spotify clone made from a OneBitCode minicourse to improve knowledge in Rails and ReactJS. 🎼
 </p> 
 
-## 🎨 Telas do app
+## 🎨 Screens
 
 <h3 align="center">
   <img alt="logo" src="./screenshots/spotcode_1.png" width="1000px"/>
@@ -15,27 +15,27 @@
   <img alt="logo" src="./screenshots/spotcode_4.png" width="1000px"/>
 </h3>
 
-## ✅ Recursos
-- Pesquisar músicas cadastradas no banco de dados
-- Favoritar músicas
-- E o que não poderia faltar: tocar músicas
+## ✅ Features
+- Search songs registered in the database
+- Favorite music
+- And what could not miss: playing music
 
-## 🧰 Ferramentas utilizadas
+## 🧰 Tools
 
 - [ReactJS](https://pt-br.reactjs.org/)
 - [Ruby 2.7](https://www.ruby-lang.org/en/news/2019/12/25/ruby-2-7-0-released/)
 - [Rails 6.0.2.2](https://edgeguides.rubyonrails.org/6_0_release_notes.html/)
 - [Devise (Gem)](https://github.com/heartcombo/devise)
 
-## 👩‍🏫 Iniciando com o projeto
+## 👩‍🏫 Getting started
 
-- Clonando o projeto
+- Cloning
   - `git clone https://github.com/Hilderlan/spotcode.git`;
   - `cd spotcode`;
-- Executar
+- Run
   - `rails db:create db:migrate db:seed`;
   - `rails s`;
  
-## 🙋‍♂️ Autor
+## 🙋‍♂️ Author
 
 * **Hilderlan Almeida** - [Hilderlan](https://github.com/Hilderlan)
